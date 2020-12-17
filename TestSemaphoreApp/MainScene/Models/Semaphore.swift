@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import UIKit
+
+struct Semaphore {
+    var color : UIColor?
+    var name : String?
+}
