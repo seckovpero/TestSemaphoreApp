@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     @objc func addButtonTapped() {
-        self.semaphoresDataModel.addSemaphore(semaphore: Semaphore(color: .orange, name: "Orange"))
+        self.semaphoresDataModel.addSemaphore(semaphore: Semaphore(color: .orange, name: "Oranges"))
         self.tableView.reloadData()
     }
 }
