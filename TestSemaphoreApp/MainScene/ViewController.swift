@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     //MARK: - SETUP NAVIGATION BAR
     func setupNavigationBar() {
-        self.title = "Miki"
+        self.title = "Despina"
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(deleteButtonTapped))
         
